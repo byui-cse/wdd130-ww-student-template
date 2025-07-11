@@ -1,0 +1,5 @@
+{
+  // Auto Save after delay (1000 ms = 1 second)
+  "files.autoSave": "afterDelay",
+  "files.autoSaveDelay": 1000,
+}
