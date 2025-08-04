@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin: 20px;
+}
+
+/* block-level elements */
+p,
+div,
+main,
+footer {
+    margin: 1rem;
+    border: 1px solid rgb(0 0 0 /  10%); /* light gray border */
+    padding: 1rem;
+}
+
+p {
+    background-color: #bed;
+}
+
+div, footer {
+    background-color: #eee;
+}
+
+strong {
+    color: red; /* using strong element to highlight action text in red */
+}
+
+button {
+    background-color: #333;
+    color: white;
+    border: 1px solid #ccc;
+    border-radius: 0.5rem;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+}
+
+/* supplemental material styling */
+
+#video {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    cursor: pointer;
+}
+
+.exempt {
+    border: none;
+    padding: 0;
+    margin: 0;
+}
