@@ -1,0 +1,69 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0 40px;
+}
+
+h1 {
+    border-bottom: 1px solid rgb(0 110 182);
+    padding-bottom: 0;
+}
+
+h2 {
+    color: rgb(0 110 182);
+    margin-top: 20px;
+}
+
+h3 {
+    color: rgb(0 100 100);
+    margin: 0;
+}
+
+p {
+    margin: 0;
+}
+
+code {
+    color: darkgreen;
+    font-weight: 700;
+    font-size: 1.4rem;
+}
+
+/* Class examples - can be reused */
+.box {
+    margin: 20px 0;
+    border: 1px solid rgb(0 0 0 / 10%);
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #dddddd;
+    /* Light gray background can be written at #ddd in shorthand */
+}
+
+.smallnote {
+    font-size: 0.8rem;
+    font-style: italic;
+}
+
+.smallnote code {
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+.classnote {
+    background-color: #eeffff;
+}
+
+.idnote {
+    background-color: #ffffee;
+}
+
+#best-practices {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    border-radius: 10px;
+    padding: 20px
+}
+
+mark {
+    color: hsl(39, 100%, 50%)
+}

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class vs ID Attributes</title>
+    <link rel="stylesheet" href="styles/class-vs-id.css">
+</head>
+
+<body>
+    <h1>Understanding Class vs ID Attributes</h1>
+    <div class="box">
+        <p>Learn the differences between <code>class</code> and <code>id</code> attributes in HTML, their usage, and
+            best practices for web design and development.</p>
+        <p class="smallnote">(This <code>div</code> has a <code>class</code> attribute of "<code>box</code>".)</p>
+    </div>
+
+    <section id="overview">
+        <h2>What Are Class and ID Attributes?</h2>
+        <p>Both <code>class</code> and <code>id</code> are HTML attributes used to identify and style elements, but they
+            serve different purposes:</p>
+
+        <div class="box classnote">
+            <h3>Class Attribute</h3>
+            <ul>
+                <li><strong>Purpose:</strong> Groups similar elements together for design queues, styling, and
+                    functionality</li>
+                <li><strong>Usage:</strong> Can be applied to multiple elements and multiple classes can be applied to
+                    one element. This allows for creating usable CSS rules, reducing the need for repetitive code.</li>
+                <li><strong>CSS Selector:</strong> Uses a dot (.) before the class name</li>
+            </ul>
+        </div>
+
+        <div class="box idnote">
+            <h3>ID Attribute</h3>
+            <ul>
+                <li><strong>Purpose:</strong> Uniquely identifies a single element on the page</li>
+                <li><strong>Usage:</strong> Must only be used once per page and allows unique styling and scripting for
+                    that element</li>
+                <li><strong>CSS Selector:</strong> Uses a hash (#) before the ID name</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="best-practices">
+        <h2>Best Practices</h2>
+            <ul>
+                <li><strong>DO NOT</strong> use the same ID on multiple elements</li>
+                <li><strong>DO NOT</strong> use IDs for styling that applies to many elements</li>
+                <li><strong>DO NOT</strong> start class or ID names with numbers</li>
+                <li><strong>DO NOT</strong> use spaces in class or ID names (use hyphens or underscores)
+                    <div class="box">
+                        <h3>✅ Example Good Naming Conventions:</h3>
+                        <ul>
+                            <li><strong>Classes:</strong> .btn, .card, .highlight, .error-message</li>
+                            <li><strong>IDs:</strong> #header, #navigation, #main-content, #contact-form</li>
+                            <li>Use descriptive names that explain the purpose</li>
+                            <li>Use lowercase with hyphens for multi-word names</li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+    </section>
+
+    <footer class="box smallnote">
+        <p>Copyright &copy; Brigham Young University-Idaho | All rights reserved</p>
+    </footer>
+    </div>
+
+
+</body>
+
+</html>
