@@ -1,0 +1,55 @@
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    margin: 1rem;
+}
+
+nav {
+    background-color: #36454f;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 900px;
+    margin: 0 auto;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav a {
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    text-decoration: none;
+}
+
+p {
+    margin: 1rem;
+    border: 1px solid rgb(0 0 0 / 10%);
+    padding: 1rem;
+    background-color: #bed;
+    max-width: 400px;
+}
+
+#devtools-btn {
+    background-color: #36454f;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    margin: 1rem;
+    font-size: 16px;
+    font-family: Helvetica, Arial, sans-serif;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#devtools-btn:hover {
+    background-color: #4a5a6a;
+}
+
+#devtools-btn:active {
+    background-color: #2a3a4a;
+}

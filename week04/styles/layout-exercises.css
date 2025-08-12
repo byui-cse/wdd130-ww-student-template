@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 1rem;
+    font-family: monospace;
+    font-size: 1.2rem;
+}
+
+div {
+    margin: 1rem;
+    border: 1px dashed;
+    padding: 1rem;
+}
+
+.one {
+    width: 200px;
+    height: 200px;
+}
+
+.flex {
+    background-color: #aba;
+    /* write declarations here */
+
+}
+
+.grid {
+    background-color: #abb;
+    /* enter declarations here */
+
+}
+
+.container2 {
+    /* write declarations here */
+
+}
+
+.two {
+    background-color: #ace;
+    height: 100px;
+}
+
+.container3 {
+    /* write declarations here */
+
+}
+
+.columns-3 {
+    /* write declaration here */
+
+}
+
+.three {
+    margin: .25rem;
+    background-color: #abd;
+}

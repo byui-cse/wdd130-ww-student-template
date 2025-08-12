@@ -1,0 +1,32 @@
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    margin: 1rem;
+}
+
+.flex-container {
+    border: 3px dashed darkcyan;
+    background-color: lightyellow;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flex-item {
+    width: 250px;
+    margin: 1rem;
+    border: 1px solid rgb(0 0 0 / 20%);
+    padding: 0.5rem;
+    background-color: #bbb;
+    color: #333;
+}
+
+.item1 {
+    min-height: 100px;
+}
+
+.item2 {
+    min-height: 200px;
+}
+
+.item3 {
+    min-height: 300px;
+}
