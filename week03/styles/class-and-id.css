@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0 40px;
+}
+
+h1 {
+    border-bottom: 1px solid rgb(0 110 182);
+    padding-bottom: 0;
+}
+
+
+
+p {
+    margin: 0;
+}
+
+code {
+    color: darkgreen;
+    font-weight: 700;
+    font-size: 1.4rem;
+}
+
+/* Class examples - can be reused */
+
+.box {
+    margin: 20px 0;
+    border: 1px solid rgb(0 0 0 / 10%);
+    padding: 10px;
+    background-color: #ddd; /* this is shorthand for #dddddd */
+}
+
+.highlight {
+    background-color: #efefaa;
+    border-radius: 25px;
+    padding: 25px;
+}
+
+/* ID examples - should be unique */
+
+#note {
+    background-color: #333;
+    color: white;
+    width: fit-content;
+}
+
+#note code {
+    color: yellow;
+}
+
+#best-practice {
+    background: linear-gradient(135deg, #000 0%, #999 100%);
+    color: white;
+    border-radius: 20px;
+    padding: 20px
+}
+

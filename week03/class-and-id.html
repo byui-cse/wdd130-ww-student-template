@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class vs ID Attributes</title>
+    <link rel="stylesheet" href="styles/class-and-id.css">
+</head>
+
+<body>
+    <h1>Understanding Class and ID Attributes</h1>
+    <p>Both <code>class</code> and <code>id</code> are HTML attributes used to identify and style any element, but they
+        serve different purposes. <code>class</code> defines a group of elements, while <code>id</code> uniquely
+        identifies a single element.</p>
+    <p>As a developer, you decide what the assigned values or identifiers should be for classed and ids. These
+        identifiers should be
+        descriptive and follow a consistent naming convention. For example, "<strong>box</strong>" is a good class name
+        for a generic container.</p>
+    <div class="box">
+        <p>The HTML div has a class of <strong>box</strong>.</p>
+        <pre><code class="html">&lt;div class="box"&gt; ... &lt;/div&gt;</code></pre>
+        and the CSS selector is (note the dot notation)
+        <pre><code class="css">.box {
+  margin: 20px 0;
+  border: 1px solid rgb(0 0 0 / 10%);
+  padding: 10px;
+  background-color: #ddd; 
+}</code></pre>
+    </div>
+
+    <div class="box highlight">
+        <p>This div has two classes assigned to it of <strong>box</strong> and <strong>highlight</strong>. So the div
+            will have the styles of both classes applied.</p>
+        <pre><code class="html">&lt;div class="box highlight"&gt; ... &lt;/div&gt;</code></pre>
+        and the CSS selector for highlight is
+        <pre><code class="css">.highlight {
+  background-color: #efefaa;
+  border-radius: 25px;
+  padding: 25px;
+}</code></pre>
+<p>Some declarations (<code>background-color</code> and <code>padding</code>, from "box" are overwritten by the same declarations in "highlight" becuase highlight appears after box in the CSS cascade.</p>
+    </div>
+
+    <div id="note" class="box">
+        <p>This is a div with a unique ID "note" and the same "box" class.</p>
+        <pre><code class="html">&lt;div id="note" class="box"&gt; ... &lt;/div&gt;</code></pre>
+        and the CSS selector is
+        <pre><code class="css">#note {
+  background-color: #333;
+  color: white;
+  width: fit-content;
+}</code></pre>
+    </div>
+
+    <div id="note">
+        <p>Testing the <code>note</code> ID.</p>
+    </div>
+
+    <section id="best-practice">
+        <ul>
+            <li><strong>DO NOT</strong> use the same ID on multiple elements</li>
+            <li><strong>DO NOT</strong> use IDs for styling that applies to many elements</li>
+            <li><strong>DO NOT</strong> start class or ID names with numbers</li>
+            <li><strong>DO NOT</strong> use spaces in class or ID names (use hyphens or underscores)</li>
+        </ul>
+    </section>
+
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,26 @@
+main {
+    width: 75vw;
+    margin: 1rem auto;
+    background-color: #eee;
+    padding: 1rem;
+    border: 1px solid rgb(0 0 0 / .1);
+}
+
+p {
+    text-align: justify;
+}
+
+.col1 img {
+    float: right;
+    margin: 0 0 15px 15px;
+    border: 1px solid rgba(0 0 0 / .3);
+    box-shadow: 0 0 30px #777;
+}
+
+footer {
+    border-top: 1px solid #555;
+    padding-top: 5px;
+    /* Remove the comment below and observe the results. */
+
+    /* clear: both; */
+}
