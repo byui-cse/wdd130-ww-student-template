@@ -4,39 +4,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Block vs. Inline Example</title>
+    <title>Exercise: Block vs. Inline Elements</title>
     <link rel="stylesheet" href="styles/block-vs-inline.css">
 </head>
 
 <body>
     <main>
-        <h1>Block vs. Inline Elements (&lt;h1&gt; and all headings are block elements)</h1>
+        <h1>Exercise: Block vs. Inline Elements</h1>
+        <p class="note">Some basic styling has been applied in order to illustrate the elements structure and
+            boundaries.</p>
 
-        <em>Some basic styling has been applied in order to illustrate the elements structure and boundaries.</em>
+        <h2>Task 1: Swap Block and Inline Elements</h2>
+        <div>In the HTML of this document, change this div element to a span element.</div>
 
-        <p>A paragraph &lt;p&gt; element (block) with a <span>&lt;span&gt; element (inline)</span></p>
+        <p class="question">What happens to the layout? Does it still take up the full width?</p>
 
-        <h2>Block Element Examples</h2>
+        <h2>Task 2: Nesting Inline in Block</h2>
+        <p>A paragraph &lt;p&gt; element (block) with a <span>&lt;span&gt; element;</span></p>
+        <p class="question">Add another inline element like &lt;em&gt; or &lt;strong&gt; inside the paragraph. Observe
+            how it flows within the line.</p>
 
-        <div>A divider &lt;div&gt; element (block) <strong>Switch me to a &lt;p&gt; and note any differences in
-                appearance</strong>
-            <p>Paragraph &lt;p&gt; element (block) as a child of the div <strong>Change this paragraph tag to a
-                    &lt;div&gt;
-                    and note any differences in appearance</strong></p>
-        </div>
+        <h2>Task3: Nesting Block in Inline</h2>
+        <span>Try placing a &lt;div&gt; inside a &lt;span&gt; element.</span>
+            <p class="question">What error or layout issue do you see? Why does this happen?</p>
 
-        <h2>Inline Element Examples</h2>
 
-        &lt;img&gt; element (inline)
+            <h2>Task 4: Review the HTML markup of the following Inline Elements</h2>
+        &lt;img&gt; element
         <img src="images/castle.webp" alt="placeholder image (images are inline)" width="300" height="300">
-        <a href="https://churchofjesuschrist.org">&lt;a&gt; anchor element (inline)</a>
-        <button type="button">&lt;button&gt; element (inline)</button>
-
-        <footer>A footer element (block)</footer>
-
-        <div id="video">▶️ <a class="exempt"
-                href="https://www.loom.com/share/27b3f99aa6a047b1ad373e756adace9e?sid=270667d9-3adc-48c4-b833-456fd1dc8e30"
-                target="_blank" rel="noopener">Supplemental Video Demonstration</a></div>
+        <a href="https://churchofjesuschrist.org">&lt;a&gt; anchor element</a>
+        <button type="button">&lt;button&gt; element</button>
     </main>
 </body>
 
