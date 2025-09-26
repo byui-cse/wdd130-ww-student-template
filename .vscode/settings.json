@@ -7,6 +7,17 @@
   "editor.formatOnPaste": true,
   "editor.defaultFormatter": "vscode.html-language-features",
   "editor.minimap.enabled": false,
+  "editor.linkedEditing": true,
+ 
+  "editor.quickSuggestions": {
+    "comments": "off",
+    "strings": "off",
+    "other": "off"
+  },
+  "editor.parameterHints.enabled": false,
+  "editor.suggestOnTriggerCharacters": false,
+  "editor.hover.enabled": false,
+  "editor.inlineSuggest.enabled": false,
   
   // Git settings for beginners - simplify source control
   "git.enableSmartCommit": true, // automatically staged
@@ -26,6 +37,7 @@
   "outline.showFiles": false,
   "timeline.showView": false,
   "explorer.autoOpenDroppedFile": false,
+  "workbench.tree.indent": 25,
   
   // Live and Live/Five Server settings
   "fiveServer.port": 5501,
