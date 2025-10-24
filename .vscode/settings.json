@@ -12,7 +12,7 @@
   "editor.quickSuggestions": {
     "comments": "off",
     "strings": "off",
-    "other": "off"
+    "other": "on"
   },
   "editor.parameterHints.enabled": false,
   "editor.suggestOnTriggerCharacters": false,
