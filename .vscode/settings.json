@@ -55,7 +55,7 @@
   // Live and Live/Five Server settings
   "fiveServer.port": 5501,
   "fiveServer.injectBody": false,
-  "liveServer.settings.port": 5504,
+  "liveServer.settings.port": 5505,
 
   // disable copilot chat
   "chat.agent.enabled": false,
