@@ -1,14 +1,12 @@
 {
   // Auto Save when focus changes (allows formatOnSave to work)
   "files.autoSave": "onFocusChange",
-
   // Editor settings
   "editor.formatOnSave": true,
   "editor.formatOnPaste": true,
   "editor.defaultFormatter": "vscode.html-language-features",
   "editor.minimap.enabled": false,
   "editor.linkedEditing": true,
- 
   "editor.quickSuggestions": {
     "comments": "off",
     "strings": "off",
@@ -16,22 +14,22 @@
   },
   "editor.parameterHints.enabled": false,
   "editor.suggestOnTriggerCharacters": false,
-  "editor.hover.enabled": false,
+  "editor.hover.enabled": "off",
   "editor.inlineSuggest.enabled": false,
   "html.format.enable": true,
   "html.format.maxPreserveNewLines": 2,
   "html.format.wrapLineLength": 100,
   "html.format.wrapAttributesIndentSize": 2,
   "[html]": {
-        "editor.defaultFormatter": "vscode.html-language-features",
-    },
+    "editor.defaultFormatter": "vscode.html-language-features",
+  },
   "css.format.enable": true,
   "css.format.maxPreserveNewLines": 2,
   "css.format.spaceAroundSelectorSeparator": true,
   "css.format.newlineBetweenRules": true,
   "[css]": {
-        "editor.defaultFormatter": "vscode.css-language-features",
-    }
+    "editor.defaultFormatter": "vscode.css-language-features",
+  },
   // Git settings for beginners - simplify source control
   "git.enableSmartCommit": true, // automatically staged
   "git.confirmSync": false,
@@ -39,7 +37,6 @@
   // "git.postCommitCommand": "sync",
   "scm.defaultViewMode": "list",
   "scm.repositories.visible": 0,
-  
   // Explorer settings - show only folders view
   "explorer.fileNesting.enabled": true,
   "explorer.fileNesting.expand": false,
@@ -48,14 +45,12 @@
   "explorer.decorations.badges": false,
   "explorer.openEditors.minVisible": 0,
   "outline.showFiles": false,
-  "timeline.showView": false,
   "explorer.autoOpenDroppedFile": false,
   "workbench.tree.indent": 25,
-  
   // Live and Live/Five Server settings
   "fiveServer.port": 5501,
   "fiveServer.injectBody": false,
-  "liveServer.settings.port": 5504/
+  "liveServer.settings.port": 5504,
 
   // disable copilot chat
   "chat.agent.enabled": false,
