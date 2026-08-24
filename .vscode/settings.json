@@ -54,6 +54,5 @@
 
   // enable copilot as tutor only
   "chat.agent.enabled": true,  
-  "chat.includeReferencedInstructions": true,
-  "chat.useAgentsMdFile": true
+  "chat.includeReferencedInstructions": true
 }
