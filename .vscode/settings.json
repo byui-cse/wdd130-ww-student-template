@@ -52,10 +52,8 @@
   "fiveServer.injectBody": false,
   "liveServer.settings.port": 5504,
 
-  // disable copilot chat
-  "chat.agent.enabled": false,
-  "chat.disableAIFeatures": true,
-  "chat.commandCenter.enabled": false,
-  "inlineChat.accessibleDiffView": "off",
-  "terminal.integrated.initialHint": false
+  // enable copilot as tutor only
+  "chat.agent.enabled": true,  
+  "chat.includeReferencedInstructions": true,
+  "chat.useAgentsMdFile": true
 }
