@@ -53,12 +53,12 @@
   // Live Server and Five Server settings
   "fiveServer.port": 5501,
   "fiveServer.injectBody": false,
-  "liveServer.settings.port": 5505,
-
-  // Enable GitHub Copilot Chat and built-in AI features
-  "chat.agent.enabled": false,
-  "chat.disableAIFeatures": false,
-  "chat.commandCenter.enabled": false,
-  "inlineChat.accessibleDiffView": "off",
+  "liveServer.settings.port": 5504,
+  // Enable copilot chat and restrict to tutor only
+  // These settings also control ChatGPT Codex behaviour
+  "chat.agent.enabled": true,
+  "chat.includeReferencedInstructions": true,
+  "chat.useAgentsMdFile": true,
+  // limit Intellisense help in the terminal
   "terminal.integrated.initialHint": false
 }
