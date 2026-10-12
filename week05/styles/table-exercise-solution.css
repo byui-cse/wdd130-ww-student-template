@@ -6,6 +6,11 @@ table {
     letter-spacing: 1px;
 }
 
+caption {
+    padding: 8px 10px;
+    font-weight: 700;
+}
+
 th,
 td {
     border: 1px solid rgb(160 160 160);
